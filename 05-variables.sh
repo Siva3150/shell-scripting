@@ -11,5 +11,10 @@ echo " please enter your username "
 
 read -s USERNAME
 
-echo  " Username is : $USERNAME "
+echo " Please enter your Password "
+
+read -s PASSWORD
+
+
+echo  " Username is : $USERNAME  and password is : $PASSWORD "
 
