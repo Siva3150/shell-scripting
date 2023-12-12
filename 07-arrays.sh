@@ -9,3 +9,5 @@ echo " First vale : ${Fruits[1]} "
 
 echo " First vale : ${Fruits[2]} "
 
+echo " All Fruits : ${Fruits[@]} "
+
