@@ -3,6 +3,7 @@
 ID=$(id -u)
 
 VALIDATE() {
+
 if [ $? -ne 0 ]
 then
    echo " ERROR :: Installing  is failed "
@@ -22,5 +23,9 @@ else
    echo " you are root user "
 fi
 
+VALIDATE
 yum install mysql -y
+
+VALIDATE
+yum install git -y
 
