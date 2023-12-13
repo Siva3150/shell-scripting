@@ -2,14 +2,11 @@
 
 ID=(id -u)
 
-if [ ID -ne 0 ]
+if [ $ID -ne 0 ]
 then
-
-echo "proceed with the intallation with root access "
-
+   echo " ERROR :: please run this script with root access "
 else
-
-echo " stop and run this script with root access "
+   echo " you are root user "
 fi
 
-install mysql -y
+yum install mysql -y
