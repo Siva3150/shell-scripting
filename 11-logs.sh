@@ -28,10 +28,10 @@ else
    echo " you are root user "
 fi
 
-yum install mysql -y   &>> $TIMESTAMP
+yum install mysql -y   &>> $LOGFILE
 
 VALIDATE $? "Installing MYSQL" 
 
-yum install git -y  &>> $TIMESTAMP
+yum install git -y  &>> $LOGFILE
 
 VALIDATE  $? "Installing git"  
