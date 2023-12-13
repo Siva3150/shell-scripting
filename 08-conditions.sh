@@ -2,13 +2,13 @@
 
 NUMBER=$1
 
-if [ $1 gt 100 ]
+if [ $NUMBER -gt 100 ]
 then
 
-echo " number is greather than 100 : $1 "
+echo " given $NUMBER  is greather than 100 "
 
 else
 
-echo " number is less than 100 : $1 "
+echo " GIVEN $number is less than 100 "
 
 fi
