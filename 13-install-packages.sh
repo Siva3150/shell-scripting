@@ -26,7 +26,7 @@ then
   echo " $R Error :: run this script with root access "
   exit 1
 else
-  echo -e " $G you are root user "
+  echo  "  you are root user "
 fi
 
 #echo " All arguments passed : $@
@@ -39,6 +39,6 @@ then
    yum install $package -y   &>> $LOGFILE
    VALIDATE $? " installing of $package "
 else
-   echo -e " $package is already installed .... $Y SKIPPING $N "
+   echo -e  " $package is already installed .... $Y SKIPPING $N "
 fi 
 done
