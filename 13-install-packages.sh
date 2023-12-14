@@ -26,7 +26,7 @@ then
   echo " $R Error :: run this script with root access "
   exit 1
 else
-  echo " $G you are root user "
+  echo -e " $G you are root user "
 fi
 
 #echo " All arguments passed : $@
